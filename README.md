@@ -18,17 +18,17 @@ requirements.txt
 ```bash
 pip install -r requirements.txt
 python run.py
+```
 
 🧪 Testes
-bash
-Copiar código
+```bash
 pip install pytest
 pytest tests/
+```
 Se necessário:
-
-bash
-Copiar código
+```bash
 export PYTHONPATH=.
+```
 🔗 Endpoints
 GET /products
 
@@ -44,4 +44,3 @@ DELETE /products/<id>
 Dados não persistem (tudo em memória)
 
 Foco didático: APIs, Flask, testes
-```
